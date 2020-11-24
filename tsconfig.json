@@ -8,9 +8,9 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"]
+    "typeRoots": ["node_modules/@types", "node_modules/web-ext-types"],
+    "declaration": true
   },
   "include": ["src/**/*"],
-  "exclude": ["src/**/*.test.ts"],
-  "declaration": true
+  "exclude": ["src/**/*.test.ts"]
 }
