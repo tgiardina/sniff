@@ -1,5 +1,5 @@
 {
-  "name": "sniff",
+  "name": "@tgiardina/sniff",
   "version": "1.0.0",
   "description": "A simple HTTP and WebSocket sniffer for WebExtensions.",
   "main": "dist/index.js",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/tgiardina/sniff.git"
   },
+  "scope": "@tgiardina",
   "author": "https://github.com/tgiardina/",
   "license": "Apache-2.0",
   "bugs": {
