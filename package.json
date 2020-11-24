@@ -1,0 +1,32 @@
+{
+  "name": "sniff",
+  "version": "1.0.0",
+  "description": "A simple HTTP and WebSocket sniffer for WebExtensions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgiardina/sniff.git"
+  },
+  "author": "https://github.com/tgiardina/",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tgiardina/sniff/issues"
+  },
+  "homepage": "https://github.com/tgiardina/sniff#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "tsc --build",
+    "format": "prettier --write .",
+    "lint": "eslint src",
+    "precommit": "npm run lint && npm run format"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.126",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "eslint": "^7.12.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5",
+    "web-ext-types": "^3.2.1"
+  }
+}
