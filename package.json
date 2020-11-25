@@ -1,6 +1,6 @@
 {
   "name": "@tgiardina/sniff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple HTTP and WebSocket sniffer for WebExtensions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,6 @@
     "precommit": "npm run lint && npm run format"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.126",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "eslint": "^7.12.0",
     "prettier": "^2.1.2",
