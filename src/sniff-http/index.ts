@@ -23,7 +23,7 @@ export function sniffHttp(callback: (msg: SniffedMessage) => unknown): void {
           filter.write(encoder.encode(json));
           filter.close();
         } catch (err) {
-          console.log(`sniffHttp thre ${err}`);
+          console.log(`sniffHttp threw ${err}`);
         }
       };
     },
